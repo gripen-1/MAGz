@@ -1,0 +1,2 @@
+# MAGz
+Site for games
