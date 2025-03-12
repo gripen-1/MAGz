@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssIndex.css">
+    <link rel="icon" type="image/x-icon" href="images/MAGz.ico">
+
+    <title>MAGz</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><img class="topImg" src="images/MAGz.png" alt="MAGz logo" onclick="displaySecret1()"></li>
+        <li><a href="#Game1">one_long_night</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <br>
+    <div class="mainBox">
+        <div class="intro">
+            <img src="images/HAW.gif" alt="HELLO AND WELCOME">
+            <p> Welcome to my website! This website was made for <span>practice</span>
+                and to display <span>the games I created!</span> </p>
+        </div>
+        <hr>
+        <div class="gameDiv">
+            <h1 id="Game1">one_long_night</h1>
+            <div class="showcase">
+                <div class="gameTextDiv">
+                    <p>This is the first 3D game I made in Godot engine.</p>
+                    <p>Since I was new to game making, the game is poorly optimised. I have a school laptop and it runs
+                        the game badly... I am going to fix
+                        this is the future while making a new game. Also, the loading time between scenes and booting up
+                        the game takes time. The game has 2.6 GB even though I shouldn't have.</p>
+                    <p> <span>If anyone knows how to optimise games and how to fix loading times pelase let me know!</span> </p>
+                    <p>The game is a mixture of FNAF games, the mechanics are simmilar to FNAF1 and FNAF2 but it also
+                        contains some of my original mechanics (I think)...</p>
+                    <p>There are 5 entities that you need to look out for. Every single on has a special trait and for
+                        you to be able to avoid getting jumpscared... Learning the movement and the sound they make is crucial.</p>
+                    <p>The characters and the some of the game mechanics are described in the game under the <span>Info</span> tab.</p>
+                    <p>You can download it <span>
+                            <a href="https://drive.google.com/file/d/1ZoUv8CQ1fRQShWiOV8d1OBUmjAVm5yII/view?usp=sharing"
+                                target="_blank">HERE</a></span></p>
+                </div>
+                <div class="gameImageDiv">
+                    <div class="mySlides">
+                        <img src="oln/oln_1.png" alt="Image1">
+                    </div>
+                    <div class="mySlides">
+                        <img src="oln/oln_2.png" alt="Image2">
+                    </div>
+                    <div class="mySlides">
+                        <img src="oln/oln_3.png" alt="Image3">
+                    </div>
+                    <div class="mySlides">
+                        <img src="oln/oln_4.png" alt="Image4">
+                    </div>
+                    <div class="mySlides">
+                        <img src="oln/oln_5.png" alt="Image5">
+                    </div>
+                    <div class="mySlides">
+                        <img src="oln/oln_6.png" alt="Image6">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactBox">
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <form action="submit_form.php" method="POST">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <textarea id="message" placeholder="Message" rows="5" required></textarea>
+                <input type="button" value="SEND">
+            </form>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <a href="#twitter"><img src="images/icons8-twitter-48.png"></a>
+                <a href="#gitHub"><img src="images/icons8-github-48.png"></a>
+                <a href="#youtube"><img src="images/icons8-youtube-48.png"></a>
+            </div>
+            <div class="leftover">
+                Made by me
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
