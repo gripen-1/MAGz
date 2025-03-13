@@ -112,6 +112,7 @@ div.intro p {
 
 div.showcase {
     display: flex;
+    align-items: center;
 }
 
 div.gameDiv h1 {
@@ -133,6 +134,7 @@ div.gameTextDiv {
 }
 
 div.gameImageDiv {
+    align-items: center;
     width: 50%;
     position: relative;
     padding: 10px;
