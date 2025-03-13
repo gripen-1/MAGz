@@ -134,7 +134,6 @@ div.gameTextDiv {
 }
 
 div.gameImageDiv {
-    align-items: center;
     width: 50%;
     position: relative;
     padding: 10px;
